@@ -1,0 +1,6 @@
+load("/Users/apple/Manuscripts/CFC_20230304/data/mRNAexp.rda")
+tmp <- mRNAexp[1:10,1:10]
+tmp
+load("/Users/LGJ-15/Manuscripts/CFC_20230304/data/pathway_all.rda")
+load("/Users/apple/Manuscripts/CFC_20230304/data/pathway_all.rda")
+load("/Users/apple/Manuscripts/CFC_20230304/data/pathway_all.rda")

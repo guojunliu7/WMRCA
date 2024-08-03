@@ -1,0 +1,40 @@
+Package: WMRCA
+Type: Package
+Title: Cancer subtypes identification based on multiple genomic datasets
+Version: 1.0.0
+Author: 
+    person(given = "Guojun", family = "Liu", email = "gjliu77@qq.com", role  = c("aut", "cre"))
+Maintainer: Guojun Liu <gjliu77@gmail.com>
+Description: A multi-method is used to classify cancer subtypes and make the results more objective, accurate, and user-friendly. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+LazyDataCompression: yes
+RoxygenNote: 7.2.3
+Imports:
+    impute,
+    survival,
+    survminer,
+    limma,
+    RColorBrewer,
+    org.Hs.eg.db,
+    GenomicRanges,
+    ChIPseeker,
+    TxDb.Hsapiens.UCSC.hg38.knownGene,
+    ggpubr,
+    igraph,
+    ggplot2,
+    cluster,
+    fpc,
+    preprocessCore,
+    pRRophetic,
+    NMF,
+    ConsensusClusterPlus,
+    iCluster,
+Depends: 
+    R (>= 3.5.0)
+Suggests: 
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Language: en-US
